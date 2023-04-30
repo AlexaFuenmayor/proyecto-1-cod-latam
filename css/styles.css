@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Niramit", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+
+}
+nav {
+  margin-left: 2rem;
+}
+nav > a {
+  margin-left: 0.4rem;
+  font-size: 2rem;
+}
+
+
+main .logo-perfil {
+  height: 30vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+
+.logo-car {
+  height: 10vh;
+}
+
+article {
+  max-width: 70vw;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8vh;
+}
+article p {
+  margin-top: 1rem;
+}
+section {
+  margin-top: 12vh;
+  text-align: center;
+  background-color: rgb(221, 140, 154);
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 1vh;
+}
+.productos-button-link{
+  background-color: rgb(122, 233, 236);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  height: 36px;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  padding: 2px;
+}
+#contact {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+  margin-left: 12vw;
+  margin-bottom: 3vh;
+}
+#contact img {
+  height: 5vh;
+}
+.icono-home{
+  display:flex;
+  justify-content: center;
+}
+
+.icono-home img{
+  height: 5vh;
+  margin-bottom: 4vh;
+  margin-top: 6vh;
+  
+}
+footer {
+  background-color: #7ae9ec;
+  text-align: center;
+  height: 5vh;
+}
+
+@media only screen and (min-width: 992px) {
+  .productos-button-link {
+    background-color: #7ae9ec;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 36px;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    padding: 1px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  article {
+    max-width: 80vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+  }
+  article p {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  footer {
+    background-color: #7ae9ec;
+    text-align: center;
+  }
+  main .logo-perfil {
+    height: 35vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav > a {
+    margin-left: 0.4rem;
+    font-size: 2rem;
+  }
+}
